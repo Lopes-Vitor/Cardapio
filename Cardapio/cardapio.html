@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
+            max-width: 100px;
+            margin-right: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .menu {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .category {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        .item {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .item:hover {
+            transform: scale(1.05);
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #f36f6f;
+            margin-top: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .social-icons {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+    <title>Cardápio Tedo Lanches</title>
+</head>
+
+<body>
+    <header>
+        <img src="imagens/tedo.png" alt="Logotipo" class="logo">
+        <h1>Cardápio Tedo Lanches</h1>
+    </header>
+    <section class="menu">
+        <!-- Lanches -->
+        <h2 class="category">Lanches</h2>
+        <div class="item">
+            <h3>Hambúrguer Clássico</h3>
+            <p>Delicioso hambúrguer com carne suculenta, alface, queijo e molho especial.</p>
+            <p class="price">R$ 15,00</p>
+        </div>
+        <div class="item">
+            <h3>Hambúrguer Vegetariano</h3>
+            <p>Uma opção saudável com hambúrguer de vegetais, alface, tomate e molho especial.</p>
+            <p class="price">R$ 14,00</p>
+        </div>
+        <div class="item">
+            <h3>Wrap de Frango</h3>
+            <p>Wrap recheado com tiras de frango grelhado, alface, tomate e molho ranch.</p>
+            <p class="price">R$ 12,00</p>
+        </div>
+
+        <!-- Aperitivos -->
+        <h2 class="category">Aperitivos</h2>
+        <div class="item">
+            <h3>Batata Frita</h3>
+            <p>Porção de batatas fritas crocantes e bem temperadas.</p>
+            <p class="price">R$ 8,00</p>
+        </div>
+        <div class="item">
+            <h3>Onion Rings</h3>
+            <p>Anéis de cebola empanados e fritos, servidos com molho de churrasco.</p>
+            <p class="price">R$ 9,00</p>
+        </div>
+        <div class="item">
+            <h3>Nachos com Queijo</h3>
+            <p>Chips de milho crocantes cobertos com queijo derretido e pimenta jalapeño.</p>
+            <p class="price">R$ 10,00</p>
+        </div>
+
+        <!-- Bebidas -->
+        <h2 class="category">Bebidas</h2>
+        <div class="item">
+            <h3>Refrigerante</h3>
+            <p>Escolha entre várias opções de refrigerantes gelados.</p>
+            <p class="price">R$ 5,00</p>
+        </div>
+        <div class="item">
+            <h3>Suco Natural</h3>
+            <p>Suco fresco de laranja, limão ou morango.</p>
+            <p class="price">R$ 6,00</p>
+        </div>
+        <div class="item">
+            <h3>Água Mineral</h3>
+            <p>Água mineral natural ou com gás.</p>
+            <p class="price">R$ 3,00</p>
+        </div>
+    </section>
+    <div class="social-icons">
+        <a href="https://api.whatsapp.com/send/?phone=5515997915791&text&type=phone_number&app_absent=0" target="_blank"><img src="imagens/whatsapp.png" alt="WhatsApp"></a>
+        <a href="https://www.instagram.com/tedo.lanches.sorocaba/" target="_blank"><img src="imagens/instagram.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/tedolanches/" target="_blank"><img src="imagens/facebook.png" alt="Facebook"></a>
+    </div>
+</body>
+
+</html>
